@@ -1,0 +1,181 @@
+body {
+    background-color: #222514;
+}
+
+.pine-logo {
+    width: 280px;
+}
+
+.custom-bg {
+    background-color: #373d20;
+}
+
+.bg-jumbotron {
+    background: url("/Hero.jpg")
+       no-repeat fixed;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+  }
+
+
+  .bg-jumbotron1 {
+    background: url("/HeroPour.jpg")
+     no-repeat fixed;
+    background-size: cover;
+    height: 350px;
+  }
+
+  .bg-jumbotronEvent {
+    background: url("/Cribbage.jpg")
+    no-repeat fixed;
+   background-size: cover;
+   height: 350px;
+  }
+
+  .eventDiv {
+    height: fit-content;
+  }
+
+nav {
+    margin-top: 5px;
+}
+
+.navContainer {
+    width: 50%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.nav-ul {
+    right: 0;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hamburger {
+    border: none;
+    font-family: 'Roboto';
+}
+
+.collapse {
+    width: 100%;
+}
+
+.hamburger:hover, .hamburger:active, .hamburger:focus, .hamburger:visited {
+    border: none;
+}
+
+.accordion-button, .accordion-button:focus, .accordion-button:active, .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #cfdd95;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.link-style {
+    font-family: 'Roboto';
+    letter-spacing: 6px;
+}
+
+.card {
+    padding: 0;
+}
+
+.cardRow {
+    padding: 0;
+    margin: 0;
+}
+
+.custOverlay {
+    /* background-color: rgb(55, 61, 32, 0.8); */
+    background-color: rgb(255, 255, 255, 0.3);
+    padding-top: 18%;
+    text-shadow: 2px 2px 2px whitesmoke;
+    opacity: 0;
+    padding: 5% 0%;
+}
+
+.custOverlay:hover{
+    opacity: 1;
+}
+
+.custOverlay > p {
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+}
+
+.card-font {
+    font-family: 'Playfair Display';
+    letter-spacing: 3px;
+}
+
+.menu-title {
+    font-family: 'Playfair Display';
+    font-size: large;
+}
+
+.menu-content {
+    font-family: 'Roboto';
+}
+
+.acc-title {
+    font-family: 'Playfair Display';
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px grey;
+    font-size:x-large
+}
+
+.acc-font {
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    font-size: 12px;
+    display: block;
+}
+
+.copyME {
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: 'Playfair Display';
+}
+
+.body-font {
+    font-family: 'Roboto';
+}
+
+.returnButton {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+    z-index: 9999!important;
+    position: relative;
+    top: -12px;
+    display: block;
+}
+
+.subscribeContainer {
+    margin-top: 15px;
+}
+
+.topFont {
+    font-size: 12px;
+}
+
+.footy {
+    bottom: 0;
+    position: relative;
+    margin-top: 20px;
+    height: fit-content;
+}
