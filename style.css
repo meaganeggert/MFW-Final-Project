@@ -11,7 +11,7 @@ body {
 }
 
 .bg-jumbotron {
-    background: url("/Hero.jpg")
+    background: url("Hero.jpg")
        no-repeat fixed;
     background-size: cover;
     height: 350px;
@@ -20,14 +20,14 @@ body {
 
 
   .bg-jumbotron1 {
-    background: url("/HeroPour.jpg")
+    background: url("HeroPour.jpg")
      no-repeat fixed;
     background-size: cover;
     height: 350px;
   }
 
   .bg-jumbotronEvent {
-    background: url("/Cribbage.jpg")
+    background: url("Cribbage.jpg")
     no-repeat fixed;
    background-size: cover;
    height: 350px;
